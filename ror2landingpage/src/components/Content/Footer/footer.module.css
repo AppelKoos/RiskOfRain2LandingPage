@@ -1,0 +1,20 @@
+.container{
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-areas:
+        "links blank"
+        "logos rating";
+    grid-template-columns: 1fr 2fr;
+}
+
+.LegalLinks{
+    grid-area:  links;
+}
+.CompanyLogos{
+    grid-area: logos;
+}
+.Rating{
+    grid-area: rating;
+}
+
