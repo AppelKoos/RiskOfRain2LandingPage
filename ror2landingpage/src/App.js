@@ -1,22 +1,22 @@
 import React from 'react';
 import './App.css';
 
+import Header from './components/Content/MainHeader/header';
+import Buylinks from './components/Content/BuyLinks/buylinks';
+import Roadmap from './components/Content/Roadmap/roadmap';
+import About from './components/Content/About/about';
+import Gallery from './components/Content/Gallery/gallery';
+import Footer from './components/Content/Footer/footer';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Buylinks />
+      <Roadmap />
+      <About />
+      <Gallery />
+      <Footer />
     </div>
   );
 }
