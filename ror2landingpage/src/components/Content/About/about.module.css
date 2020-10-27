@@ -1,0 +1,35 @@
+.AboutSection {
+    text-align: center;
+    color: mediumaquamarine;
+    background-color: midnightblue;
+    
+    font-size: large;
+}
+
+.About {
+    text-align: center;
+    padding: 40px 10px
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "Set1 Set2" "Set3 Set4";
+    grid-template-columns: 2fr 2fr;
+    padding: 50px 20px;
+}
+
+.Set1 {
+    grid-area: Set1;
+}
+
+.Set2 {
+    grid-area: Set2;
+}
+
+.Set3 {
+    grid-area: Set3;
+}
+
+.Set4 {
+    grid-area: Set4;
+}

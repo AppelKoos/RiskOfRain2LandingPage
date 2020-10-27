@@ -1,12 +1,12 @@
 import React from 'react';
+import ImageGallery from 'react-image-gallery'
+import images from '../../../Assets/RoR2Images/GalleryImages'
 
-const gallery = () =>{
+const gallery = () => {
     return (
         <div>
-            <p>
-                Gallery <br/>
-                images to come soon just be patient
-            </p>
+            <h2>Gallery</h2>
+            <ImageGallery items={images} />
         </div>
     )
 }
