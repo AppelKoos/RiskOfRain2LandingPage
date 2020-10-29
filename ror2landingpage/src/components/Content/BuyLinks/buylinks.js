@@ -4,6 +4,14 @@ import { Button, ButtonGroup } from '@material-ui/core'
 import 'fontsource-roboto';
 import './buylinks.css'
 
+/*
+ps4 https://store.playstation.com/en-us/product/UP0292-CUSA16153_00-RISKOFRAIN2SIEA0
+xbox https://www.microsoft.com/en-us/p/risk-of-rain-2/9p6f6tbggvk3
+switch https://www.nintendo.com/games/detail/risk-of-rain-2-switch/#game-info
+steam https://store.steampowered.com/app/632360/Risk_of_Rain_2/
+stadia https://stadia.google.com/u/1/store/details/7b6d79b833354dcaa9b2461086a7763crcp1/sku/5470776eda9b4270b049f081c6bc07ce
+*/
+
 const buylinks = (props) => {
     return (
         <div className={props.classname} >
