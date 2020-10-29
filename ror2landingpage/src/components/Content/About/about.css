@@ -11,25 +11,25 @@
     padding: 40px 10px
 }
 
-.container {
+.About__container {
     display: grid;
     grid-template-areas: "Set1 Set2" "Set3 Set4";
     grid-template-columns: 2fr 2fr;
     padding: 50px 20px;
 }
 
-.Set1 {
+.About-info__1 {
     grid-area: Set1;
 }
 
-.Set2 {
+.About-info__2 {
     grid-area: Set2;
 }
 
-.Set3 {
+.About-info__3 {
     grid-area: Set3;
 }
 
-.Set4 {
+.About-info__4 {
     grid-area: Set4;
 }

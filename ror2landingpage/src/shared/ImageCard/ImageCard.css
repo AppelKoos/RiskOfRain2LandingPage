@@ -1,0 +1,14 @@
+.image-card__main-wrapper {
+    padding: 0 5px;
+    height: 400px;
+    width: 23vw;
+}
+
+.image-card__main-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.imageCard__text {
+    text-align: center;
+}

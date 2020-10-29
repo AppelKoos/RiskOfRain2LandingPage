@@ -1,9 +1,8 @@
 import React from 'react';
 import { Button, ButtonGroup } from '@material-ui/core'
 
-import classes from './buylinks.module.css'
 import 'fontsource-roboto';
-
+import './buylinks.css'
 
 const buylinks = (props) => {
     return (

@@ -1,10 +1,11 @@
 import React from 'react';
 
-import classes from './about.module.css'
+import './about.css'
+
 const about = () => {
     return (
-        <div className={classes.AboutSection} >
-            <div className={classes.About} >
+        <div className="AboutSection" >
+            <div className="About" >
                 <h1>About</h1>
                 <p>
                     Escape a chaotic alien planet by
@@ -14,8 +15,8 @@ const about = () => {
                     the havoc you feared upon your first crash landing.
                 </p>
             </div>
-            <div className={classes.container}>
-                <div className={classes.Set1}>
+            <div className="About__container">
+                <div className="About-info__1">
                     <h1 >Survice an alien planet</h1>
                     <p>
                         Over a dozen handcrafted locales await,<br />
@@ -27,7 +28,7 @@ const about = () => {
                         limitlessly increase in power over the course of a game.
                     </p>
                 </div>
-                <div className={classes.Set2}>
+                <div className="About-info__2">
                     <h1>Unlock new ways to play</h1>
                     <p>
                         Unlock a crew of ten playable survivors,<br />
@@ -37,7 +38,7 @@ const about = () => {
                         With randomized stages, enemies, and items, no run will ever be the same.
                     </p>
                 </div>
-                <div className={classes.Set3}>
+                <div className="About-info__3">
                     <h1>Discover powerful new items</h1>
                     <p>
                         More than 110 items keep each run fresh and full of new challenge.<br />
@@ -47,7 +48,7 @@ const about = () => {
                         you’ll discover through the logs.
                     </p>
                 </div>
-                <div className={classes.Set4}>
+                <div className="About-info__4">
                     <h1>Play solo or co-op</h1>
                     <p>
                         Tackle the adventure solo or with up to three friends in online co-op,<br />
