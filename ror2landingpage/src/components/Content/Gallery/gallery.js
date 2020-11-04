@@ -9,14 +9,14 @@ import './gallery.css';
 
 const gallery = () => {
     return (
-        <div className="Gallery__image">
-                {imagesFinal1.map(image => (
-                    <ImageCard
-                        imageLink={image.link}
-                        imageTitle={image.title}
-                        imageText={image.text}
-                    />
-                ))}
+        <div id="key-features-images" className="Gallery__image">
+            {imagesFinal1.map(image => (
+                <ImageCard
+                    imageLink={image.link}
+                    imageTitle={image.title}
+                    imageText={image.text}
+                />
+            ))}
         </div>
     )
 }

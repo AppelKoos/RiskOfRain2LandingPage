@@ -1,24 +1,22 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import {NavHashLink} from 'react-router-hash-link'
 
 import './Navlinks.css'
 
 const Navlinks = () =>{
+
     return <ul className="nav-links">
         <li>
-            <NavLink to="/#home-top" > Home </NavLink>
+            <NavHashLink smooth to="/#home-top" > Home </NavHashLink>
         </li>
         <li>
-            <NavLink to="/#buylinks-top" > Buy </NavLink>
+            <NavHashLink smooth to="/#about-game" >About</NavHashLink>
         </li>
         <li>
-            <NavLink to="/#about-game" >About</NavLink>
+            <NavHashLink smooth to="/#key-features-images"> Key Feaures</NavHashLink>
         </li>
         <li>
-            <NavLink to="/#key-features-images"> Key Feaures</NavLink>
-        </li>
-        <li>
-            <NavLink to="/#media-video"> Media</NavLink>
+            <NavHashLink smooth to="/#media-video"> Media</NavHashLink>
         </li>
     </ul>
 }

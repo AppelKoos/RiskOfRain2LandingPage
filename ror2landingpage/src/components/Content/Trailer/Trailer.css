@@ -1,0 +1,15 @@
+.trailer__container{
+    background-color: midnightblue;
+    color: aliceblue;
+    text-align: center;
+}
+
+.trailer__container h2{
+    padding-top: 30px;
+}
+
+.trailer__video-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}

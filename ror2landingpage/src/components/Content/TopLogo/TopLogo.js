@@ -4,7 +4,7 @@ import testGif from '../../../Assets/Gifs/elmo.gif'
 import RoR2Logo from '../../../Assets/RoR2Images/ror2_logo_512-1.png'
 import Buylinks from '../BuyLinks/buylinks'
 
-import './header.css'
+import './TopLogo.css'
 
 const header = () => {
     const backgroundStyling = {
@@ -16,7 +16,7 @@ const header = () => {
         width: '100%'
     }
     return (
-        <div style={backgroundStyling} >
+        <div id="home-top" style={backgroundStyling} >
             <div className={'Emptyspace'} />
             <img className={'Logo'} src={RoR2Logo} alt="Main logo not found" />
             <div className={'Emptyspace'} />
